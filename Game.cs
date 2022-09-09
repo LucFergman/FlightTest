@@ -164,7 +164,7 @@ public class Game : MonoBehaviour
     }
     IEnumerator RestorePosition()
     {
-        var data = 0f;
+        var data = 0.1f;
         baseSpeed = 0;
         increseSpeed = 0.1f;
         rotationX = 0;
