@@ -164,7 +164,7 @@ public class Game : MonoBehaviour
     }
     IEnumerator RestorePosition()
     {
-        var git = 0.12f;
+        var git = 0f;
         baseSpeed = 0;
         increseSpeed = 0.1f;
         rotationX = 0;
